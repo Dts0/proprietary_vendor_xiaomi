@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 
 # Light
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/hw/lights.msm8960.so:system/vendor/lib/hw/lights.msm8960.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
