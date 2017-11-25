@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/msm8960-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/msm8960-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/xiaomi/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app
+    vendor/xiaomi/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/xiaomi/msm8960-common/proprietary/bin/wcnss_service:system/bin/wcnss_service
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/irsc_util:system/bin/irsc_util
@@ -182,6 +183,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/audio_amplifier.msm8960.so:system/vendor/lib/hw/audio_amplifier.msm8960.so
+
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
