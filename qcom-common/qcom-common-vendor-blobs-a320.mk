@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -37,5 +36,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/xiaomi/qcom-common/proprietary-a320/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so
