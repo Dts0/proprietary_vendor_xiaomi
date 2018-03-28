@@ -178,9 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so
-
-PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/hw/audio_amplifier.msm8960.so:system/vendor/lib/hw/audio_amplifier.msm8960.so
 
 PRODUCT_COPY_FILES += \
