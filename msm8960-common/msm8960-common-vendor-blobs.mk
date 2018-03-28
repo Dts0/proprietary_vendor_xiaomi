@@ -104,11 +104,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libulp2.so:system/lib/libulp2.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
